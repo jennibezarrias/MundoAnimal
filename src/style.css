@@ -75,9 +75,9 @@ input::placeholder{
 
 div input{
     margin-bottom: 10px;
-    border: 1px solid #000000;
+    border: 1px solid #000000 !important;
     border-radius: 8px;
-    height: 30px;
+
     padding: 10px;
 }
 
@@ -101,7 +101,7 @@ div input{
     font-family: 'Roboto';
     font-size: 12px;
     font-weight: bold;
-    margin: 5px 0 30px 0;
+    margin: 5px 0 15px 0;
 }
 
 .linksenha, .linkconta {
