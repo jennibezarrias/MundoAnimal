@@ -1,0 +1,131 @@
+
+form div {
+    display: grid;
+}
+
+#titulo{
+    font-size: 36px;
+    margin-bottom:10px !important ;
+}
+
+.subtitulo{
+    font-size: 16px;
+    margin-bottom: 50px !important;
+}
+
+#titulo, .subtitulo{
+    font-family: 'Inter';
+    color: #000000;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.conta{
+    color: #505050;
+}
+
+
+#caixa{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 0px #B2AEAE;
+    width: 105vh;
+}
+
+
+#idiomas{
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.inscreva{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.ou{
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+    margin: 20px 60px;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.line{
+    width: 25%;
+}
+
+input::placeholder{
+    padding: 6px;
+    color: #000000;
+    font-family: 'Inter';
+}
+
+div input{
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    height: 30px;
+    padding: 10px;
+}
+
+.dog{
+    height: 65vh;
+}
+
+.choices__inner{
+    font-family: 'Roboto';
+    background-color:unset !important;
+    border:1px solid #000000 !important;
+    border-radius: 8px !important;
+    width: unset !important;
+    min-height: 40px !important;
+}
+
+
+/* Botões e links */
+
+.linksenha, .conta, .linkconta{
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0 30px 0;
+}
+
+.linksenha, .linkconta {
+    color: #CC3F3F;
+    text-decoration: underline;
+}
+
+.linksenha{
+    text-align: end;
+}
+
+.btngoogle, .btnlogin{
+    font-family: 'Inter';
+    
+}
+
+.btngoogle{
+    background: none;
+    border: 1px solid #000000;
+}
+
+.btnlogin{
+    background: #FDD380;
+    border: none;
+}
+
+

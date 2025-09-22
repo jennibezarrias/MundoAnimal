@@ -1,0 +1,43 @@
+export const translations = {
+  en: {
+    title: "Welcome to the animal world!",
+    description: "Connect to the Pet Universe",
+    senha: "Don't Remember Password?",
+    buttongoogle: "Connect with Google",
+    buttonlogin: "Connect",
+    inscreva: "Sign Up",
+    idiomas: "Languages",
+    buttonconta: "Don't have an account?",
+  },
+  pt: {
+    title: "Bem-vindo ao mundo animal!",
+    description: "Conecte-se ao universo Pet",
+    senha: "Não Lembra da Senha?",
+    buttongoogle: "Conectar com Google",
+    buttonlogin: "Conectar",
+    inscreva: "Inscrever-se",
+    idiomas: "Idiomas",
+    buttonconta: "Não tem conta?",
+  },
+  es: {
+    title: "¡Bienvenido al mundo animal!",
+    description: "Conéctate al universo Pet",
+    senha: "¿No recuerdas la contraseña?",
+    buttongoogle: "Conectar con Google",
+    buttonlogin: "Conectar",
+    inscreva: "Registrarse",
+    idiomas: "Idiomas",
+    buttonconta: "¿No tienes una cuenta?",
+  },
+  fr: {
+    title: "Bienvenue dans le monde animal !",
+    description: "Connectez-vous à l'univers des animaux de compagnie",
+    senha: "Vous ne vous souvenez pas du mot de passe ?",
+    buttongoogle: "Se connecter avec Google",
+    buttonlogin: "Se connecter",
+    inscreva: "S'inscrire",
+    idiomas: "Langues",
+    buttonconta: "Vous n'avez pas de compte ?",
+  },
+};
+
