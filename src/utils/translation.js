@@ -1,3 +1,4 @@
+/*Login*/
 export const translations = {
   en: {
     title: "Welcome to the animal world!",
@@ -8,6 +9,10 @@ export const translations = {
     inscreva: "Sign Up",
     idiomas: "Languages",
     buttonconta: "Don't have an account?",
+    termos: "Terms and Conditions.",
+    aceito: "I accept the",
+    criar: "Create account",
+    voltar: "Back to Login"
   },
   pt: {
     title: "Bem-vindo ao mundo animal!",
@@ -18,6 +23,10 @@ export const translations = {
     inscreva: "Inscrever-se",
     idiomas: "Idiomas",
     buttonconta: "Não tem conta?",
+    termos: "Termos e Condições",
+    aceito: "Aceito os",
+    criar: "Criar conta",
+    voltar: "Voltar ao Login"
   },
   es: {
     title: "¡Bienvenido al mundo animal!",
@@ -28,6 +37,10 @@ export const translations = {
     inscreva: "Registrarse",
     idiomas: "Idiomas",
     buttonconta: "¿No tienes una cuenta?",
+    termos: "Términos y Condiciones.",
+    aceito: "Acepto los",
+    criar: "Crear cuenta",
+    voltar: "Volver al Login"
   },
   fr: {
     title: "Bienvenue dans le monde animal !",
@@ -38,6 +51,10 @@ export const translations = {
     inscreva: "S'inscrire",
     idiomas: "Langues",
     buttonconta: "Vous n'avez pas de compte ?",
+    termos: "Termes et Conditions.",
+    aceito: "J'accepte les",
+    criar: "Créer un compte",
+    voltar: "Retour à la connexion"
   },
 };
 

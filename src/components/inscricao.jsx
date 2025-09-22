@@ -1,13 +1,13 @@
-import { Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { useState } from "react";
 import "../style.css";
-import dog from "/dog.png";
+import gato from "/gatofundo.png";
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import { translations } from "../utils/translation";
 
-function Login() {
+function Inscricao() {
   const fundo = { 
-    backgroundImage: "url('./imgfundo.png')",
+    backgroundImage: "url('./gatofundo.png')",
     backgroundSize: "70%",
     backgroundPosition: "left",
     backgroundRepeat: "no-repeat",
@@ -47,7 +47,7 @@ function Login() {
         <div className="container text-center">
           <div id="caixa" className="p-3 row">
             <div className="col">
-              <img className="dog" alt="Dog" src={dog} />
+              <img className="dog" alt="Cat" src={gato} />
             </div>
             <div className="col">
               <div className="caixa-menor">
@@ -65,29 +65,27 @@ function Login() {
                 </div>
                 <form onSubmit={handleSubmit} id="loginForm">
                   <div className="mb-3">
+                    <input className="form-control p-3 mb-2 border-dark-subtle" placeholder="Nome do Pet"
+                      type="text" value={email}
+                      onChange={(e) => setSenha(e.target.value)}/>
                     <input
-                      className="form-control p-3 mb-2 border-dark-subtle"
-                      placeholder="dog@gmail.com"
-                      type="email"
-                      value={email}
+                      className="form-control p-3 mb-2 border-dark-subtle" placeholder="dog@gmail.com"
+                      type="email" value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
-                    <input
-                      className="form-control p-3 mb-2 border-dark-subtle"
-                      placeholder="********"
-                      type="password"
-                      value={senha}
-                      onChange={(e) => setSenha(e.target.value)}
-                    />
-                    <div>
-                      <a className="linksenha" href="#">{t.senha}</a>
+                    <input className="form-control p-3 mb-2 border-dark-subtle" placeholder="********"
+                      type="password" value={senha}
+                      onChange={(e) => setSenha(e.target.value)}/>
+
+                    <div className="d-flex">
+                        <input class="form-check-input" type="checkbox" value="" id="checkDefault"></input>
+                        <label class="form-check-label" for="checkDefault">Aceito os Termos e Condições</label>
                     </div>
                   </div>
                   <div className="conta-div d-flex justify-content-center flex-column">
-                    <button className="btnlogin p-3 rounded w-100">{t.buttonlogin}</button>
+                    <button className="btnlogin p-3 rounded w-100">Inscrever-se</button>
                     <div className="d-flex justify-content-center">
-                      <p>{t.buttonconta}</p>
-                      <Link className="linkconta" to="/inscricao"> {t.inscreva}</Link>
+                      <a className="linkconta" href="#"> Voltar ao Login</a>
                       </div>
                   </div>
                 </form>
@@ -100,4 +98,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Inscricao;
